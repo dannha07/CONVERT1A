@@ -1,0 +1,91 @@
+.background{
+    background: url(okay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    filter: blur(2 px);
+}
+
+.box{
+    height: 44%;
+    width: 24%;
+    position: absolute;
+    background: linear-gradient(45deg,pink,#004580);
+    border: 5px solid #0c2167;
+    top: 211px;
+    left: 9%;
+}
+
+#d {
+    position: absolute;
+    left: 14%;
+    top: 15%;
+}
+
+#b {
+    position: absolute;
+    top: 35%;
+    left: 14%;
+}
+
+#o {
+    position: absolute;
+    top: 55%;
+    left: 14%;
+}
+
+#h {
+    position: absolute;
+    top: 75%;
+    left: 14%;
+}
+
+#d, #b, #o, #h {
+    border-radius: 10px;
+    width: 160px;
+    height: 30px;
+}
+
+p {
+    position: absolute;
+    left: 33.5%;
+    top: 3%;
+}
+
+p1 {
+    position: absolute;
+    left: 33.5%;
+    top: 28%;
+}
+
+p2 {
+    position: absolute;
+    left: 33.5%;
+    top: 48%;
+}
+
+p3 {
+    position: absolute;
+    left: 33.5%;
+    top: 68%;
+}
+
+
+#button {
+    position: absolute;
+    height: 34px;
+    width: 94px;
+    left: 72%;
+    top: 16%;
+}
+
+#button:hover {
+    color: #2196F3;
+}
+
+#button:hover {
+    border: 4px solid #2196F3;
+}
